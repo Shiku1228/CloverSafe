@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CloverSave</string>
+    <string name="welcome">Welcome!</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="not_a_member">Not a member? </string>
+    <string name="register_now">Register now</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="your_wallet">Your Wallet</string>
+    <string name="expenses">Expenses</string>
+    <string name="income_history">Income History</string>
+    <string name="expense_history">Expense History</string>
+    <string name="add_money">Add Money</string>
+    <string name="records">Records</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="add_income">Add Income</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="amount">Amount</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="see_all">See All</string>
+    <string name="close">Close</string>
+    <string name="no_notifications">No notifications</string>
+    <string name="no_records_found">No records found</string>
+    <string name="transaction_records">Transaction Records</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="confirm_clear_data">Are you sure you want to delete all transactions and notifications? This cannot be undone.</string>
+    <string name="clear">Clear</string>
+    <string name="category">Category</string>
+    <string name="select_category">Select Category</string>
+    <string name="analytics">Analytics</string>
+    <string name="spending_summary">Spending Summary</string>
+    <string name="no_data_for_charts">Not enough data to display charts.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Food</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_bills">Bills</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_salary">Salary</string>
+    <string name="cat_gift">Gift</string>
+    <string name="cat_other">Other</string>
+</resources>
