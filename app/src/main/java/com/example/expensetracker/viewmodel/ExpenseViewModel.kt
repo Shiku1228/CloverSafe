@@ -52,8 +52,13 @@ class ExpenseViewModel(application: Application) : AndroidViewModel(application)
         repository.insertNotification(Notification(message = message))
     }
 
+    fun registerUser(name: String, email: String, pin: String) = viewModelScope.launch {
+        repository.updateProfile(UserProfile(name = name, email = email, pin = pin))
+    }
+
     fun updateProfile(name: String, email: String) = viewModelScope.launch {
-        repository.updateProfile(UserProfile(name = name, email = email))
+        val currentProfile = userProfile.value
+        repository.updateProfile(UserProfile(name = name, email = email, pin = currentProfile?.pin))
     }
 
     fun clearAllData() = viewModelScope.launch {
@@ -69,6 +74,12 @@ class ExpenseViewModel(application: Application) : AndroidViewModel(application)
     }
     
     fun getCategorySpending(category: String, monthYear: String): LiveData<Double?> {
+        return transactionDao_getCategoryExpenseForMonth(category, monthYear)
+    }
+    
+    // Helper since I don't have direct access to transactionDao here in the text block easily if I were to rewrite everything, 
+    // but wait, repository has it.
+    private fun transactionDao_getCategoryExpenseForMonth(category: String, monthYear: String): LiveData<Double?> {
         return repository.getCategorySpending(category, monthYear)
     }
 }

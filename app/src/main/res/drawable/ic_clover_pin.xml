@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 5-leaf clover inspired by the Black Clover Grimoire design -->
+    <group android:pivotX="12" android:pivotY="12" android:rotation="0">
+        <path
+            android:fillColor="#8B0000"
+            android:pathData="M12,12c0.5,1.5 3,2 5,4c2,2 0.5,5 -2,5.5c-1.5,0.3 -2.5,-1 -3,-2c-0.5,1 -1.5,2.3 -3,2c-2.5,-0.5 -4,-3.5 -2,-5.5c2,-2 4.5,-2.5 5,-4z" />
+    </group>
+
+    <group android:pivotX="12" android:pivotY="12" android:rotation="72">
+        <path
+            android:fillColor="#8B0000"
+            android:pathData="M12,12c0.5,1.5 3,2 5,4c2,2 0.5,5 -2,5.5c-1.5,0.3 -2.5,-1 -3,-2c-0.5,1 -1.5,2.3 -3,2c-2.5,-0.5 -4,-3.5 -2,-5.5c2,-2 4.5,-2.5 5,-4z" />
+    </group>
+
+    <group android:pivotX="12" android:pivotY="12" android:rotation="144">
+        <path
+            android:fillColor="#8B0000"
+            android:pathData="M12,12c0.5,1.5 3,2 5,4c2,2 0.5,5 -2,5.5c-1.5,0.3 -2.5,-1 -3,-2c-0.5,1 -1.5,2.3 -3,2c-2.5,-0.5 -4,-3.5 -2,-5.5c2,-2 4.5,-2.5 5,-4z" />
+    </group>
+
+    <group android:pivotX="12" android:pivotY="12" android:rotation="216">
+        <path
+            android:fillColor="#8B0000"
+            android:pathData="M12,12c0.5,1.5 3,2 5,4c2,2 0.5,5 -2,5.5c-1.5,0.3 -2.5,-1 -3,-2c-0.5,1 -1.5,2.3 -3,2c-2.5,-0.5 -4,-3.5 -2,-5.5c2,-2 4.5,-2.5 5,-4z" />
+    </group>
+
+    <group android:pivotX="12" android:pivotY="12" android:rotation="288">
+        <path
+            android:fillColor="#8B0000"
+            android:pathData="M12,12c0.5,1.5 3,2 5,4c2,2 0.5,5 -2,5.5c-1.5,0.3 -2.5,-1 -3,-2c-0.5,1 -1.5,2.3 -3,2c-2.5,-0.5 -4,-3.5 -2,-5.5c2,-2 4.5,-2.5 5,-4z" />
+    </group>
+
+    <!-- Center Point -->
+    <path
+        android:fillColor="#8B0000"
+        android:pathData="M12,12m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+</vector>

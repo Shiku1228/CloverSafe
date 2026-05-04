@@ -35,5 +35,6 @@ data class UserProfile(
     @PrimaryKey
     val id: Int = 1,
     val name: String,
-    val email: String
+    val email: String,
+    val pin: String? = null
 )

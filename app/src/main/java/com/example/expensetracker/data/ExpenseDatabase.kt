@@ -15,7 +15,7 @@ import com.example.expensetracker.data.model.UserProfile
 
 @Database(
     entities = [Transaction::class, Notification::class, UserProfile::class, Budget::class],
-    version = 2,
+    version = 4,
     exportSchema = false
 )
 abstract class ExpenseDatabase : RoomDatabase() {
@@ -36,7 +36,7 @@ abstract class ExpenseDatabase : RoomDatabase() {
                     ExpenseDatabase::class.java,
                     "expense_database"
                 )
-                .fallbackToDestructiveMigration() // Simple way to handle schema changes during development
+                .fallbackToDestructiveMigration()
                 .build()
                 INSTANCE = instance
                 instance
